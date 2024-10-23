@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { useActionData } from 'react-router-dom'
 import { NameContext } from '../contexts/NameContext'
 
 function Box2() {

@@ -2,7 +2,7 @@ import React, { createContext, useState } from 'react'
 
 export const NameContext = createContext(null)
 function NameContextProvider({children}) {
-    const [name,setName] = useState("John")
+    const [name,] = useState("John")
     const [theme,setTheme] = useState('light')
     const values ={name,theme,setTheme}
   return (
