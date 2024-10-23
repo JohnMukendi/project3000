@@ -20,7 +20,7 @@ function Home() {
 
     <div style={{display:"flex",justifyContent:"space-evenly"}}>
     <h1>{name}</h1>   
-    <h1>Austin</h1> 
+    <h1 style={{color:"pink"}}>Austin  </h1> 
     <Box1 theme={theme}/>
     <Box2/>
     </div>
