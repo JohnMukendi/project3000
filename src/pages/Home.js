@@ -19,7 +19,8 @@ function Home() {
     <button onClick={handleThemeChange}>{theme === 'light' ? "Light" : "Dark"}</button>
 
     <div style={{display:"flex",justifyContent:"space-evenly"}}>
-    <h1>{name}</h1>    
+    <h1>{name}</h1>   
+    Jean 
     <Box1 theme={theme}/>
     <Box2/>
     </div>
