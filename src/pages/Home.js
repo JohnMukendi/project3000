@@ -20,7 +20,7 @@ function Home() {
 
     <div style={{display:"flex",justifyContent:"space-evenly"}}>
     <h1>{name}</h1>   
-    Jean 
+    <h1>Austin</h1> 
     <Box1 theme={theme}/>
     <Box2/>
     </div>
